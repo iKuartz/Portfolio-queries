@@ -25,7 +25,10 @@
     display: flex;
   }
 
-  .logo {
+  .logo,
+  .abt-mbl,
+  .work1-pic,
+  .mob-menu  {
     display: none;
   }
 
@@ -41,11 +44,6 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-  }
-
-  .work1-pic,
-  .mob-menu {
-    display: none;
   }
 
   .dsk-logo {
@@ -165,20 +163,61 @@
 
   .work {
     display: flex;
+    justify-content: space-between;
     background: #ffffff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 80%;
+    margin-bottom: 10%;
   }
 
   .work1-dsk {
-    align-self: flex-start;
-    width: 45%;
+    width: 46%;
+    margin: 2%;
   }
 
   .work1-dsk > img {
     max-width: 100%;
     max-height: 100%;
+    margin: auto;
+  }
+
+  .work1-dsk-txt {
+    width: 46%;
+    margin: 4%;
+  }
+
+  .work-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin: 0px;
+  }
+
+  .company {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .role {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .year {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
   }
 
   .paragraph-t {
@@ -186,8 +225,24 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    width: 30%;
     color: #344563;
+  }
+
+  .see-project {
+    margin-top: 8%;
+  }
+
+  .about {
+    background-color: #fff;
+  }
+  
+  .abt-bg {
+    background-image: url("./images/abt-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
   }
 }
 
@@ -226,7 +281,8 @@
   .dsk-menu,
   .dsk-menu-c,
   .dsk-logo,
-  .work1-dsk {
+  .work1-dsk,
+  .ruby-tags {
     display: none;
   }
 
