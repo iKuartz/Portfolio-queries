@@ -28,7 +28,7 @@
   .logo,
   .abt-mbl,
   .work1-pic,
-  .mob-menu  {
+  .mob-menu {
     display: none;
   }
 
@@ -164,7 +164,7 @@
   .work {
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 80%;
@@ -234,8 +234,11 @@
 
   .about {
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
   }
-  
+
   .abt-bg {
     background-image: url("./images/abt-bg.svg");
     background-position: center;
@@ -243,6 +246,12 @@
     background-size: cover;
     width: 90%;
     height: 100%;
+  }
+
+  .abt-dsk {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
 }
 
