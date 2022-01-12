@@ -6,6 +6,151 @@
     flex-direction: column;
     align-items: flex-start;
     font-family: Poppins, "Gill Sans";
+    background-color: #e5e5e5;
+    background-image: url("./images/header-bg.svg"),
+      url("./images/header-dsk.svg");
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    display: flex;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .dsk-logo {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+
+  .dsk-logo > a,
+  .dsk-logo > a:link,
+  .dsk-logo > a:visited,
+  .dsk-logo > a:hover {
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+  }
+
+  .dsk-menu {
+    margin-right: 32px;
+    margin-top: 15px;
+  }
+
+  .dsk-menu-c {
+    margin-right: 10%;
+    margin-top: 15px;
+  }
+
+  .dsk-menu > a,
+  .dsk-menu > a:link,
+  .dsk-menu > a:visited,
+  .dsk-menu > a:hover,
+  .dsk-menu-c > a,
+  .dsk-menu-c > a:link,
+  .dsk-menu-c > a:visited,
+  .dsk-menu-c > a:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hello {
+    display: flex;
+    flex-direction: column;
+    padding: 20% 15% 0%;
+  }
+
+  .introduction {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin: 0px;
+  }
+
+  .who-am-i {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin: 12px 0px;
+  }
+
+  .connect,
+  .connect:link,
+  .connect:visited,
+  .connect:hover {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .social {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 14px 0px 0px 0px;
+  }
+
+  .social-icon {
+    padding-right: 19px;
   }
 }
 
@@ -41,26 +186,22 @@
     padding-top: 50px;
   }
 
-  .dsk-menu {
+  .dsk-menu,
+  .dsk-menu-c,
+  .dsk-logo {
     display: none;
   }
 
   .logo {
-    text-decoration: none;
-    position: static;
-    width: 76px;
-    height: 20px;
-    left: 12px;
-    top: 10px;
     font-style: normal;
     font-weight: bolder;
     font-size: 18px;
     line-height: 20px;
-    display: flex;
-    align-items: center;
+    align-self: flex-start;
     text-align: center;
+    text-decoration: none;
     color: #6070ff;
-    flex: none;
+    margin-top: 30px;
   }
 
   h1 {
