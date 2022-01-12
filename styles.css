@@ -43,6 +43,7 @@
     list-style-type: none;
   }
 
+  .work1-pic,
   .mob-menu {
     display: none;
   }
@@ -164,17 +165,20 @@
 
   .work {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-end;
     background: #ffffff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     width: 80%;
   }
 
-  .work1-pic {
+  .work1-dsk {
     align-self: flex-start;
+    width: 45%;
+  }
+
+  .work1-dsk > img {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .paragraph-t {
@@ -221,7 +225,8 @@
 
   .dsk-menu,
   .dsk-menu-c,
-  .dsk-logo {
+  .dsk-logo,
+  .work1-dsk {
     display: none;
   }
 
