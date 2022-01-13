@@ -2,13 +2,20 @@
 
 # My Portfolio
 
-> This is our first digital portfolio as software developers
+> This is our first digital portfolio as software developers in Microverse.
+
+Our objective is to create a website as similar as possible with this design
+in Figma: https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A848 .
+
+I chose template 1 to mimic.
 
 ![screenshot](./screenshot.png)
 
-The header and toolbar of the portfolio we are working on.
+Up until now the mobile version is pretty close to the target, although improvements would be possible given more time.
 
 07/01/22 - Implemented works and about sections.
+
+12/01/22 - Now working on fully adaptable portfolio for mobile and desktop.
 
 ## Built With
 
@@ -29,7 +36,7 @@ The header and toolbar of the portfolio we are working on.
 ## 🤝 Contributing
 
 My code partners at Microverse, patiently teaching me plenty.
-Ntare Guy, and Mengstu Fentaw, thank you!
+Ntare Guy, Mengstu Fentaw and Fernando Salas, thank you!
 
 ## Show your support
 

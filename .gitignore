@@ -1,0 +1,5 @@
+# Ignoring linter files after initial upload #
+###################
+.hintrc
+.stylelintrc.json
+node_modules/**
