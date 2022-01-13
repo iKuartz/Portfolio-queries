@@ -28,7 +28,8 @@
   .logo,
   .abt-mbl,
   .work1-pic,
-  .mob-menu {
+  .mob-menu,
+  .mob-data {
     display: none;
   }
 
@@ -250,7 +251,6 @@
 
   .abt-dsk {
     display: flex;
-    flex-direction: column;
     width: 80%;
   }
 }
@@ -291,7 +291,9 @@
   .dsk-menu-c,
   .dsk-logo,
   .work1-dsk,
-  .ruby-tags {
+  .ruby-tags,
+  .abt-dsk,
+  .work1-dsk-txt {
     display: none;
   }
 
