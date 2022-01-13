@@ -158,8 +158,8 @@
     display: flex;
     list-style-type: none;
     align-items: baseline;
-    padding: 0;
-    margin: 14px 0 0;
+    padding: 0px;
+    margin: 14px 0px 0px;
   }
 
   .social-icon {
@@ -588,7 +588,7 @@
     top: 16px;
     border-radius: 8px;
     flex: none;
-    margin: 12, 0;
+    margin: 12px, 0px;
   }
 
   .work-name {
@@ -607,7 +607,7 @@
   }
 
   .work-data-tonic {
-    margin: 5 0 0;
+    margin: 5px 0px 0px;
   }
 
   .work-data-multi {
@@ -672,7 +672,7 @@
     line-height: 24px;
     color: #344563;
     flex: none;
-    margin: 5 0;
+    margin: 5px 0px;
   }
 
   .paragraph-m {
