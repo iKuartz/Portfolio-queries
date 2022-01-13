@@ -7,7 +7,8 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image: url("./images/header-dsk.svg"),
+    background-image:
+      url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -436,10 +437,12 @@
     background-color: #6070ff;
     color: #fff;
   }
+
   .btn-input:active {
     background-color: #2230d2;
     color: #fff;
   }
+
   .btn-input:disabled {
     background-color: #fff;
     color: #5e6c84;
@@ -898,10 +901,12 @@
     background-color: #6070ff;
     color: #fff;
   }
+
   .btn-input:active {
     background-color: #2230d2;
     color: #fff;
   }
+
   .btn-input:disabled {
     background-color: #fff;
     color: #5e6c84;
