@@ -29,7 +29,8 @@
   .abt-mbl,
   .work1-pic,
   .mob-menu,
-  .mob-data {
+  .mob-data,
+  .mbl-lang {
     display: none;
   }
 
@@ -136,6 +137,7 @@
   .connect:visited,
   .connect:hover {
     font-style: normal;
+    text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -236,7 +238,7 @@
   .about {
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px;
   }
 
@@ -251,7 +253,59 @@
 
   .abt-dsk {
     display: flex;
+    justify-content: space-between;
     width: 80%;
+  }
+
+  .abt-txt {
+    max-width: 40%;
+    margin-bottom: 10%;
+  }
+
+  .about-me {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    margin: 20% 0% 0% 0%;
+  }
+
+  .paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 0px;
+  }
+
+  .connect-about {
+    margin-top: 0px;
+  }
+
+  .social-about {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .languages {
+    width: 55%;
+  }
+
+  .social-about {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 14px 0px 16px 0px;
+  }
+
+  .social-icon-about {
+    padding-right: 19px;
   }
 }
 
