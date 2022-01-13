@@ -56,15 +56,6 @@
     margin-top: 15px;
   }
 
-  .dsk-menu-c > a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #344563;
-  }
-
   .dsk-logo > a,
   .dsk-logo > a:link,
   .dsk-logo > a:visited,
@@ -83,11 +74,24 @@
     margin-top: 15px;
   }
 
+  /* stylelint-disable no-descending-specificity */
+
+  .dsk-menu > a,
+  .dsk-menu > a:link,
+  .dsk-menu > a:visited,
+  .dsk-menu > a:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
+  }
+
   .dsk-menu-c {
     margin-right: 10%;
     margin-top: 15px;
   }
-  /* stylelint-disable no-descending-specificity */
 
   .dsk-menu-c > a,
   .dsk-menu-c > a:link,
