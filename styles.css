@@ -7,8 +7,7 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image:
-      url("./images/header-dsk.svg"),
+    background-image: url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -418,20 +417,32 @@
   }
 
   .btn-input {
-    margin-left: 25%;
-    margin-top: 20px;
-    width: 145px;
-    height: 48px;
+    border: 1px solid #c1c7d0;
+    box-sizing: border-box;
     border-radius: 8px;
-    padding: 12px 16px;
-    background-color: #fff;
-    border: 1px solid #cfd8dc;
+    background: #fff;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #6070ff;
+    padding: 12px;
     cursor: pointer;
+  }
+
+  .btn-input:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+  .btn-input:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  .btn-input:disabled {
+    background-color: #fff;
+    color: #5e6c84;
   }
 }
 
@@ -868,19 +879,31 @@
   }
 
   .btn-input {
-    margin-top: 20px;
-    width: 145px;
-    height: 48px;
+    border: 1px solid #c1c7d0;
+    box-sizing: border-box;
     border-radius: 8px;
-    padding: 12px 16px;
-    background-color: #fff;
-    border: 1px solid #cfd8dc;
-    font-family: Poppins, "Times New Roman", Times, serif;
+    background: #fff;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #6070ff;
+    padding: 12px;
     cursor: pointer;
+  }
+
+  .btn-input:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
+  .btn-input:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  .btn-input:disabled {
+    background-color: #fff;
+    color: #5e6c84;
   }
 }
