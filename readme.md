@@ -4,18 +4,24 @@
 
 > This is our first digital portfolio as software developers in Microverse.
 
+Take a look at how it is going! https://ikuartz.github.io/Portfolio-queries/
+
 Our objective is to create a website as similar as possible with this design
 in Figma: https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A848 .
 
 I chose template 1 to mimic.
 
-![screenshot](./screenshot.png)
+![screenshot](./images/screenshot1.png)
+
+![screenshot](./images/screenshot2.png)
 
 Up until now the mobile version is pretty close to the target, although improvements would be possible given more time.
 
 07/01/22 - Implemented works and about sections.
 
 12/01/22 - Now working on fully adaptable portfolio for mobile and desktop.
+
+17/01/22 - Mobile and desktop versions working with react css, deployed with github pages.
 
 ## Built With
 
