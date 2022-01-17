@@ -15,7 +15,7 @@ I chose template 1 to mimic.
 
 ![screenshot](./images/screenshot2.png)
 
-Up until now the mobile version is pretty close to the target, although improvements would be possible given more time.
+# Project Timeline
 
 07/01/22 - Implemented works and about sections.
 
