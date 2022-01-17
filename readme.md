@@ -11,11 +11,13 @@ in Figma: https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-P
 
 I chose template 1 to mimic.
 
+Below are some screenshots of the deployed website as it was on 17/01/22
+
 ![screenshot](./images/screenshot1.png)
 
 ![screenshot](./images/screenshot2.png)
 
-# Project Timeline
+## Project Timeline
 
 07/01/22 - Implemented works and about sections.
 
@@ -47,3 +49,5 @@ Ntare Guy, Mengstu Fentaw and Fernando Salas, thank you!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+And feel free to leave suggestions for improvements!
+Thank you!
