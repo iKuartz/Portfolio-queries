@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="./styles.css" />
 		<title>Microverse Portfolio</title>
 	</head>
-
 	<body>
 		<header>
 			<nav class="navigation">
@@ -77,7 +76,7 @@
 					class="work1-pic"
 				/>
 				<div class="mob-data">
-					<h3 class="work-name">Tonic</h3>
+					<h2 class="work-name">Tonic</h2>
 					<div class="work-data-tonic">
 						<strong class="company"> CANOPY </strong>
 						<img src="./images/Counter.png" class="counter" alt="counter" />
@@ -406,34 +405,25 @@
 				with it
 			</p>
 			<form action="https://formspree.io/f/mqknezaw" method="POST">
-				<label>
+					<label for="name-input" class="hidden-label">Write your name here</label>
 					<input
-						class="small-inputs"
+						id="name-input"
 						required
 						maxlength="30"
 						placeholder="Your Name"
 						type="text"
 					/>
-				</label>
-				<label>
-					<input
-						class="small-inputs"
-						placeholder="youremail@here.com"
-						required
-						type="email"
-						name="_replyto"
-					/>
-				</label>
+					<label for="small-inputs" class="hidden-label">Write your email here</label>
+				<input id="small-inputs" placeholder="youremail@here.com" required type="email" name="_replyto"/>
                 <div class="message-field">
-                    <label>
-						<textarea
-							class="big-input"
+					<label for="big-input" class="hidden-label">Write your message here</label>
+					<textarea
+							id="big-input"
 							required
 							placeholder="Write your message here"
 							maxlength="500"
 							name="message"
 						></textarea>
-				    </label>
                 </div>
 				<button class="btn-input" type="submit">Get In Touch</button>
 			</form>

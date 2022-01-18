@@ -376,7 +376,7 @@
     display: block;
   }
 
-  .small-inputs {
+  #name-input {
     width: 320px;
     height: 48px;
     border-radius: 8px;
@@ -386,7 +386,26 @@
     margin: 20px 0;
   }
 
-  .small-inputs::placeholder {
+  #name-input::placeholder {
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  #small-inputs {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+
+  #small-inputs::placeholder {
     font-family: Poppins, "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: normal;
@@ -405,7 +424,7 @@
     margin: 15px 0;
   }
 
-  .big-input {
+  #big-input {
     width: 273px;
     height: 140px;
     background-color: #fff;
@@ -413,12 +432,16 @@
     margin: 15px 15px 38px 12px;
   }
 
-  .big-input::placeholder {
+  #big-input::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     color: #b3bac5;
+  }
+
+  .hidden-label {
+    display: none;
   }
 
   .btn-input {
@@ -839,7 +862,7 @@
     display: block;
   }
 
-  .small-inputs {
+  #name-input {
     width: 320px;
     height: 48px;
     border-radius: 8px;
@@ -849,7 +872,26 @@
     margin: 20px 0;
   }
 
-  .small-inputs::placeholder {
+  #name-input::placeholder {
+    font-family: Poppins, "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  #small-inputs {
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    padding: 0 15px;
+    margin: 20px 0;
+  }
+
+  #small-inputs::placeholder {
     font-family: Poppins, "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: normal;
@@ -868,7 +910,7 @@
     margin: 15px 0;
   }
 
-  .big-input {
+  #big-input {
     width: 273px;
     height: 140px;
     background-color: #fff;
@@ -876,13 +918,17 @@
     margin: 15px 15px 38px 12px;
   }
 
-  .big-input::placeholder {
+  #big-input::placeholder {
     font-family: Poppins, "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
     color: #b3bac5;
+  }
+
+  .hidden-label {
+    display: none;
   }
 
   .btn-input {
