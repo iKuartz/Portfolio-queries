@@ -405,17 +405,20 @@
 				with it
 			</p>
 			<form action="https://formspree.io/f/mqknezaw" method="POST">
+					<label for="name-input" class="hidden-label">Write your name here</label>
 					<input
-						class="small-inputs"
+						id="name-input"
 						required
 						maxlength="30"
 						placeholder="Your Name"
 						type="text"
 					/>
-				<input class="small-inputs" placeholder="youremail@here.com" required type="email" name="_replyto"/>
+					<label for="small-inputs" class="hidden-label">Write your email here</label>
+				<input id="small-inputs" placeholder="youremail@here.com" required type="email" name="_replyto"/>
                 <div class="message-field">
-						<textarea
-							class="big-input"
+					<label for="big-inputs" class="hidden-label">Write your message here</label>
+					<textarea
+							id="big-input"
 							required
 							placeholder="Write your message here"
 							maxlength="500"
