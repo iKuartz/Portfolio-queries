@@ -7,7 +7,8 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image: url("./images/header-dsk.svg"),
+    background-image:
+      url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -843,7 +844,7 @@
     display: inline-block;
     margin-right: 17px;
   }
-
+/* stylelint-disable no-descending-specificity */
   ul > li {
     display: block;
     padding-bottom: 15px;
@@ -853,7 +854,7 @@
     display: block;
     padding-bottom: 0;
   }
-
+/* stylelint-enable no-descending-specificity */
   .outer-list {
     padding-left: 5px;
     font-weight: bolder;
