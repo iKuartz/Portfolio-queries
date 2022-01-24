@@ -18,21 +18,22 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navigation">
+			<nav id="nav" class="navigation">
 					<a class="logo" href="#">My Logo</a>
+					<img id="close" src="./images/closing_btn.svg" alt="Button to close the menu">
 					<ul class="nav-list">
 						<li class="mob-menu">
-							<a href="#"><img src="./images/Union.svg" class="mobile-menu" alt="menu icon" /></a>
+							<a id="menu-toggle" href="#"><img src="./images/Union.svg" class="mobile-menu" alt="menu icon" /></a>
 						</li>
 						<li class="dsk-logo"><a href="#">My Logo</a></li>
 						<li class="dsk-menu">
-						<a href="#works">Portfolio</a>
+						<a class="menu_links" href="#works">Portfolio</a>
 						</li>
 						<li class="dsk-menu">
-						<a href="#about">About</a>
+						<a class="menu_links" href="#about">About</a>
 						</li>
 						<li class="dsk-menu-c">
-						<a href="#contact">Contact</a>
+						<a class="menu_links" href="#contact">Contact</a>
 						</li>
 					</ul>	
 			</nav>
@@ -428,5 +429,6 @@
 				<button class="btn-input" type="submit">Get In Touch</button>
 			</form>
 		</section>
+		<script src="./menu.js"></script>
 	</body>
 </html>

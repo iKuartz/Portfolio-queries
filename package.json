@@ -1,7 +1,11 @@
 {
   "devDependencies": {
+    "eslint": "^8.7.0",
     "stylelint": "^14.2.0",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
   }
 }
