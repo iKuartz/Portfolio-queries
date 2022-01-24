@@ -3,3 +3,6 @@
 .hintrc
 .stylelintrc.json
 node_modules/**
+.eslintrc.js
+package-lock.json
+package.json
