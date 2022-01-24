@@ -7,8 +7,7 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image:
-      url("./images/header-dsk.svg"),
+    background-image: url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -482,6 +481,19 @@
     font-family: Poppins, "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
   }
 
+  .dsk-menu,
+  .dsk-menu-c,
+  .dsk-logo,
+  .work1-dsk,
+  .ruby-tags,
+  .abt-dsk,
+  .work1-dsk-txt,
+  .inner-list-dsk,
+  .sep-dsk-item,
+  .sep-dsk-trace {
+    display: none;
+  }
+
   .intro {
     min-height: 718px;
   }
@@ -499,6 +511,28 @@
     align-items: center;
   }
 
+  #nav.menu-open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #6070ffd8;
+  }
+
+  #nav.menu-open li {
+    display: flex !important;
+    color: #fff;
+  }
+
+  #nav.menu-open .dsk-logo {
+    display: none;
+  }
+
+  #nav.menu-open .dsk-menu {
+    display: flex;
+  }
+
   .first-container {
     background-image: url("./images/header-shapes-mobile.svg");
     background-repeat: no-repeat;
@@ -506,19 +540,6 @@
     flex-direction: column;
     align-content: flex-start;
     padding-top: 50px;
-  }
-
-  .dsk-menu,
-  .dsk-menu-c,
-  .dsk-logo,
-  .work1-dsk,
-  .ruby-tags,
-  .abt-dsk,
-  .work1-dsk-txt,
-  .inner-list-dsk,
-  .sep-dsk-item,
-  .sep-dsk-trace {
-    display: none;
   }
 
   .logo {
