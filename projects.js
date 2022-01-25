@@ -80,7 +80,7 @@ function generateHTML(details) {
 						<img src="./images/javascript.png" alt="javascript tag" class="work-tags" />
 					</div>
 					<div>
-						<button id="${details.id}" class="btn-input modal-open" data-modal="modal" type="submit">Get In Touch</button>
+						<button id="${details.id}" class="btn-input modal-open" data-modal="modal-${details.id}" type="submit">Get In Touch</button>
 					</div>
 				</div>
 				<div class="work1-dsk"><img src="${details.imageUrl}" alt="${details.title} screenshot"/></div>
@@ -106,7 +106,7 @@ function generateHTML(details) {
 					/>
 					</div>
 					<div class="see-project">
-					<button id="${details.id}" class="btn-input modal-open" data-modal="modal" type="submit">Get In Touch</button>
+					<button id="${details.id}" class="btn-input modal-open" data-modal="modal-${details.id}" type="submit">See Project</button>
 					</div>
 				</div>
 			</div>
