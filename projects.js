@@ -1,61 +1,61 @@
 const projects = [
   {
-    title: "Multi-Post Stories",
-    company: "CANOPY",
-    position: "Back End Dev",
-    date: "2015",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    title: 'Multi-Post Stories',
+    company: 'CANOPY',
+    position: 'Back End Dev',
+    date: '2015',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    languages: ["html", "css", "javascript"],
-    imageUrl: "./images/work1.png",
-    id: "1",
+    languages: ['html', 'css', 'javascript'],
+    imageUrl: './images/work1.png',
+    id: '1',
   },
   {
-    title: "Multi-Post Stories",
-    company: "Tonic",
-    position: "Back End Dev",
-    date: "2015",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    languages: ["html", "css", "javascript"],
-    imageUrl: "images/work2.svg",
-    id: "2"
-  },
-  {
-    title: "Multi-Post Stories",
-    company: "CANOPY",
-    position: "Back End Dev",
-    date: "2015",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    title: 'Multi-Post Stories',
+    company: 'Tonic',
+    position: 'Back End Dev',
+    date: '2015',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    languages: ["html", "css", "javascript"],
-    imageUrl: "./images/work3.svg",
-    id: "3",
+    languages: ['html', 'css', 'javascript'],
+    imageUrl: 'images/work2.svg',
+    id: '2',
   },
   {
-    title: "Multi-Post Stories",
-    company: "Tonic",
-    position: "Back End Dev",
-    date: "2015",
-    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    languages: ["html", "css", "javascript"],
-    imageUrl: "images/work2.svg",
-    id: "4"
+    title: 'Multi-Post Stories',
+    company: 'CANOPY',
+    position: 'Back End Dev',
+    date: '2015',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    languages: ['html', 'css', 'javascript'],
+    imageUrl: './images/work3.svg',
+    id: '3',
+  },
+  {
+    title: 'Multi-Post Stories',
+    company: 'Tonic',
+    position: 'Back End Dev',
+    date: '2015',
+    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    languages: ['html', 'css', 'javascript'],
+    imageUrl: 'images/work2.svg',
+    id: '4',
   },
 ];
 
-const portfolioSection = document.getElementById("works");
+const portfolioSection = document.getElementById('works');
 
 projects.map((project) => {
-  let HTMLElement = document.createElement("div");
+  const HTMLElement = document.createElement('div');
   HTMLElement.innerHTML = generateHTML(project);
 
   portfolioSection.appendChild(HTMLElement);
 });
-
+/* eslint-disable no-tabs */
 function generateHTML(details) {
-  let template = `
+  const template = `
       <div class="work">
 				<img
 					src="${details.imageUrl}"
@@ -111,7 +111,6 @@ function generateHTML(details) {
 				</div>
 			</div>
 
-
           <div class="modal" id="modal-${details.id}">
             <div class="modal-content">
               <div class="modal-close">
@@ -158,4 +157,4 @@ function generateHTML(details) {
 
   return template;
 }
-
+/* eslint-enable no-tabs */
