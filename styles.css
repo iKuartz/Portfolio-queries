@@ -1051,6 +1051,7 @@
 
   .modal {
     position: fixed;
+    width: 90%;
     top: 0;
     left: 0;
     right: 0;
@@ -1063,22 +1064,44 @@
 
   .modal-content {
     background: #fff;
-    margin-top: 0;
+    margin: 50px 20px;
     width: 90%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     padding: 8px 24px;
     border-radius: 4px;
     z-index: 4;
   }
 
+  .modal-data {
+    margin-top: 20px;
+  }
+
+  .modal-data h2{
+    font-weight: bold;
+  }
+
+  .modal-data-tonic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+  }
+
+  .modal-data-tonic img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .modal-image img {
+    width: 330px;
+  }
+
   .modal-close {
     position: absolute;
-    right: 20px;
-    font-size: 25px;
-    width: 20px;
-    height: 20px;
+    right: 0px;
+    top: 35px;
+    width: 50px;
+    height: 50px;
   }
 
   .hr {
@@ -1090,6 +1113,15 @@
   .modal-links {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
+  }
+
+  .modal-tags img {
+    margin-right: 10px;
+  }
+
+  .modal-links button {
+    display: flex;
+    align-items: center;
   }
 }

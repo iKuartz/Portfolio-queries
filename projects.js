@@ -108,40 +108,43 @@ function generateHTML(details) {
           <div class="modal" id="modal-${details.id}">
             <div class="modal-content">
               <div class="modal-close">
-                <button id="modal-close" class="modal-close"><img class="modal-close" src="./images/closing_btn.svg" alt="Closing Button" id="close"></button>
+                <img class="modal-close" src="./images/modal-close-btn.svg" alt="Closing Button" id="modal-close">
               </div>
-              <div class="works__single__holder">
-                <h2 class="works__single__title">${details.title}</h2>
+              <div class="mob-data modal-data">
+                <h2 class="work-name">${details.title}</h2>
           
-                <div class="works__single__details">
-                <p class="works__single__details__single works__single__details__single--dark">
+                <div class="modal-data-tonic">
+                <strong class="company">
                 ${details.company}
-                </p>
-                <div class="dot"></div>
+                </strong>
+                <img src="./images/Counter.png" class="counter" alt="counter" />
                 <p class="works__single__details__single works__single__details__single--light">
                 ${details.position}
                 </p>
-                <div class="dot"></div>
+                <img src="./images/Counter.png" class="counter-modal" alt="counter" />
                 <p class="works__single__details__single works__single__details__single--light">
                 ${details.date}
                 </p>
               </div>
-              <div class="works__single__img_container">
-                <img class="works__single__img" src="${details.imageUrl}" alt="${details.title}" />
+              <div class="modal-image">
+                <img src="${details.imageUrl}" alt="${details.title}" />
               </div>
               <div>
                 <p>${details.body}</p>
               </div>
-              <div class="works__single__tags hr">
-                <div class="works__single__tags">
-                <div class="works__single__tags__single">${details.languages[0]}</div>
-                <div class="works__single__tags__single">${details.languages[1]}</div>
-                <div class="works__single__tags__single">${details.languages[2]}</div>
-              </div>
+              <div class="tags modal-tags">
+					<img src="./images/html.png" alt="html tag" class="work-tags" />
+					<img src="./images/css.png" alt="css tag" class="work-tags" />
+					<img
+						src="./images/javascript.png"
+						alt="javascript tag"
+						class="work-tags"
+					/>
+					</div>
               </div>
               <div class="modal-links">
-                <a href="./index.html"><button class="button">See Live <img src="./images/see-live.svg" alt="See Live"></button></a>
-                <a href="./index.html"><button class="button">See Source <img src="./images/see-source.svg" alt="See Live"></button></a>
+                <a href="./index.html"><button class="btn-input">See Live &nbsp;<img src="./images/see-live.svg" alt="See Live"></button></a>
+                <a href="./index.html"><button class="btn-input">See Source &nbsp;<img src="./images/see-source.svg" alt="See Live"></button></a>
               </div>
             </div>
           </div>
