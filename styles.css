@@ -7,8 +7,7 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image:
-      url("./images/header-dsk.svg"),
+    background-image: url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -576,6 +575,15 @@
   .modal-links button {
     display: flex;
     align-items: center;
+  }
+
+  .form-control small {
+    visibility: hidden;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+    color: red;
   }
 }
 
@@ -1195,5 +1203,14 @@
   .modal-links button {
     display: flex;
     align-items: center;
+  }
+
+  .form-control small {
+    visibility: hidden;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+    color: red;
   }
 }
