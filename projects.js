@@ -129,7 +129,7 @@ function generateHTML(details) {
               <div class="modal-image">
                 <img src="${details.imageUrl}" alt="${details.title}" />
               </div>
-              <div>
+              <div class="float-modal">
                 <p>${details.body}</p>
               </div>
               <div class="tags modal-tags">
