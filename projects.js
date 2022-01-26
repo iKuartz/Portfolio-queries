@@ -110,7 +110,7 @@ function generateHTML(details) {
               <div class="modal-close">
                 <img class="modal-close" src="./images/modal-close-btn.svg" alt="Closing Button" id="modal-close">
               </div>
-              <div class="mob-data modal-data">
+              <div class="modal-data">
                 <h2 class="work-name">${details.title}</h2>
           
                 <div class="modal-data-tonic">
