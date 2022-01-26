@@ -7,7 +7,8 @@
     align-items: flex-start;
     font-family: Poppins, "Times New Roman", Times, serif;
     background-color: #e5e5e5;
-    background-image: url("./images/header-dsk.svg"),
+    background-image:
+      url("./images/header-dsk.svg"),
       url("./images/header-bg.svg");
     background-blend-mode: normal;
     background-size: 100%;
@@ -103,8 +104,6 @@
     text-decoration: none;
     color: #344563;
   }
-
-  /* stylelint-enable no-descending-specificity */
 
   .intro {
     display: flex;
@@ -499,7 +498,6 @@
     background: #fff;
     margin: 5% auto;
     width: 90%;
-    height: auto;
     padding: 8px 24px;
     border-radius: 4px;
     z-index: 4;
@@ -569,12 +567,12 @@
   .modal-tags img {
     margin-right: 10px;
   }
-  /* stylelint-disable no-descending-specificity */
+
   .modal-links a {
     margin-right: 15px;
     margin-bottom: auto;
   }
-  /* stylelint-enable no-descending-specificity */
+
   .modal-links button {
     display: flex;
     align-items: center;
@@ -949,7 +947,7 @@
     display: inline-block;
     margin-right: 17px;
   }
-  /* stylelint-disable no-descending-specificity */
+
   ul > li {
     display: block;
     padding-bottom: 15px;
@@ -959,7 +957,7 @@
     display: block;
     padding-bottom: 0;
   }
-  /* stylelint-enable no-descending-specificity */
+
   .outer-list {
     padding-left: 5px;
     font-weight: bolder;
@@ -1133,7 +1131,7 @@
 
   .modal-content {
     background: #fff;
-    margin: 5% 5% 5% 5%;
+    margin: 5%;
     width: 90%;
     height: auto;
     padding: 1% 3%;
