@@ -2,7 +2,7 @@ const form = document.getElementById('form');
 const email = document.getElementById('small-inputs');
 
 function isEmail(address) {
-  return address.match(/^[a-z]+@+.*$/);
+  return address.match(/^[a-z]+@+[a-z]+.*$/);
 }
 
 function checkInputs() {
