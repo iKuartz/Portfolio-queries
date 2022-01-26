@@ -47,12 +47,6 @@ const projects = [
 
 const portfolioSection = document.getElementById('works');
 
-projects.map((project) => {
-  const HTMLElement = document.createElement('div');
-  HTMLElement.innerHTML = generateHTML(project);
-
-  portfolioSection.appendChild(HTMLElement);
-});
 /* eslint-disable no-tabs */
 function generateHTML(details) {
   const template = `
@@ -158,3 +152,11 @@ function generateHTML(details) {
   return template;
 }
 /* eslint-enable no-tabs */
+
+// eslint-disable-next-line array-callback-return
+projects.map((project) => {
+  const HTMLElement = document.createElement('div');
+  HTMLElement.innerHTML = generateHTML(project);
+
+  portfolioSection.appendChild(HTMLElement);
+});
