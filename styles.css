@@ -577,6 +577,15 @@
     display: flex;
     align-items: center;
   }
+
+  .form-control small {
+    visibility: hidden;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+    color: red;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1195,5 +1204,14 @@
   .modal-links button {
     display: flex;
     align-items: center;
+  }
+
+  .form-control small {
+    visibility: hidden;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+    color: red;
   }
 }
